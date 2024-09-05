@@ -36,9 +36,9 @@ The machine learning model used in this project is based on a pre-trained convol
 ## Usage
 To run the project locally, follow these steps:
 1. Install the required libraries using `pip install -r requirements.txt`.
-2. Run the Flask application using `gunicorn -w 4 -b 127.0.0.1:5000 index:app`.
+2. Run the Flask application using `gunicorn index:app`.
 
-Access the API at `https://house-value-predict.onrender.com/predict` to interact with the deployed model.
+Access the API at `https://drd-prediction-api.onrender.com/predict` to interact with the deployed model.
 
 ## Credits
 - [Abhishek Pakhmode](https://github.com/Abhi-1441)
